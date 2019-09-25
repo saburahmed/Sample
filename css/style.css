@@ -74,19 +74,27 @@ header {
 /* Header Style ends here */
 
 main {
-  width: 80%;
   padding-top: 5%;
-  padding-left: 9%;
-  margin: 0;
 }
 
+#section1-2 {
+  background: url("../assets/wave.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.section1-2-content {
+  padding-left: 9%;
+}
+
+/* Section 1 styles here */
 .section-header {
   color: #00aeb5;
   font-size: 24px;
-  padding-bottom: 3%;
 }
 
 .rect-wrapper {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-between;
 }
+/* Section 1 styles ends here */
