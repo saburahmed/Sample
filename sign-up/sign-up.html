@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <nav class="navbar">
-            <h2 class="brand">Opay</h2>
+                <a href="../index.html"><img class="brand" src="img/OPay.png"></a>
             <ul>
                 <li><a href="#">How it works</a></li>
                 <li><a href="#">Developer</a></li>
@@ -28,13 +28,13 @@
             <h2 class="heading">Sign Up to Continue</h2>
             <form onsubmit="">
                 <label class="block left">Email Address</label>
-                <input class="block" type="text" name="email" placeholder="Email Address">
+                <input class="block" type="text" name="email" placeholder="Email Address" required>
 
                 <label class="block left">Password</label>
-                <input class="block" type="password" name="password" placeholder="Password">
+                <input class="block" type="password" name="password" placeholder="Password" required>
 
                 <label class="block left">Confirm Password</label>
-                <input class="block" type="password" name="confirm" placeholder="Confirm Password">
+                <input class="block" type="password" name="confirm" placeholder="Confirm Password" required>
 
                 <input class="block" type="submit" value="SIGN IN">
             </form>
@@ -42,6 +42,7 @@
             <a href="#" class="forgot">Forgot password?</a>
         </main>
     </div>
+    <script src="js/sign-up.js"></script>
 </body>
 
 </html>
