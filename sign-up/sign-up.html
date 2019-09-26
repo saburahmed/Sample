@@ -6,189 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sample Page</title>
-    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+    <link rel='icon' href='favicon.ico' type='image/x-icon-v2'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="css/sign-in.css">
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <nav class="navbar">
-                <h2 class="brand">Sample</h2>
-                <ul>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Developer</a></li>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#" id="sign-up">Sign Up</a></li>
-                </ul>
-            </nav>
-
-            <div id="featured">
-                <img src="img/clear-white1.png">
-                <div id="message">
-                    <h1 class="message-header">Get paid Fast,</h1>
-                    <h1 class="message-header">Securely & Reliable</h1>
-                    <div class="message-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p>Turpis eu sed mauris non dignissim. Nam
-                            mi
-                            pretium,</p>
-                        <p>id eu ipsum orci nisl. rr</p>
-                    </div>
-                    <a href="#"><img src="img/playstore-button.png"></a>
-                </div>
-            </div>
-        </header>
+        <nav class="navbar">
+            <h2 class="brand">Sample</h2>
+            <ul>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Developer</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="../sign-up/sign-up.html" id="sign-up">Sign Up</a></li>
+            </ul>
+        </nav>
 
         <main>
-            <div id="section1-2">
-                <div class="section1-2-content">
-                    <section class="section-1">
-                        <p class="section-header">How OPay can help you</p>
-                        <div class="rect-wrapper">
-                            <div class="rect">
-                                <img src="img/piggy-bank.png">
-                                <h1>Personal Finances</h1>
-                                <img src="img/pin.svg">
-                                <p>Lorem ipsum dolor sit amet,</p>
-                                <p>consectetur adipiscing elit,</p>
-                                <p>sed do eiusmod tempor</p>
-                            </div>
-                            <div class="rect">
-                                <img src="img/building.png">
-                                <h1>Business Finances</h1>
-                                <img src="img/pin.svg">
-                                <p>Lorem ipsum dolor sit amet,</p>
-                                <p>consectetur adipiscing elit,</p>
-                                <p>sed do eiusmod tempor</p>
-                            </div>
-                            <div class="rect">
-                                <img src="img/shield.png">
-                                <h1>Secure Finance</h1>
-                                <img src="img/pin.svg">
-                                <p>Lorem ipsum dolor sit amet,</p>
-                                <p>consectetur adipiscing elit,</p>
-                                <p>sed do eiusmod tempor</p>
-                            </div>
-                            <div class="rect">
-                                <img src="img/rocket-ship.png">
-                                <h1>Fast Payment</h1>
-                                <img src="img/pin.svg">
-                                <p>Lorem ipsum dolor sit amet,</p>
-                                <p>consectetur adipiscing elit,</p>
-                                <p>sed do eiusmod tempor</p>
-                            </div>
-                        </div>
-                    </section>
+            <h2 class="heading">Sign In to Your Account</h2>
+            <form onsubmit="">
+                <label class="block left">Email Address</label>
+                <input class="block" type="text" name="firstname" placeholder="Email Address">
 
-                    <section class="section-2">
-                        <div class="section-2a">
-                            <div class="sample-wrapper">
-                                <img src="img/Rectangle.svg" class="sample-img">
-                                <div>
-                                    <h1 class="rect-2-header">Meet Sample</h1>
-                                    <p class="sample-text">Sample is a platform designed for</p>
-                                    <p class="sample-text">merchant or seller. It has all the</p>
-                                    <p class="sample-text">features that are needed and</p>
-                                    <p class="sample-text">frequently used by Seller.</p>
-                                    <p class="sample-text">Handling payments & Inventory!</p>
-                                    <a href="#" class="sample-text green">Learn More</a>
-                                </div>
-                            </div>
-                            <div class="four-box">
-                                <img src="img/Rectangle.svg">
-                                <img src="img/Rectangle.svg">
-                                <img src="img/Rectangle.svg" class="box-3">
-                            </div>
-
-                            <div>
-
-                            </div>
-                        </div>
-                        <div class="section-2b">
-                            <div class="rect-2">
-                                <img src="img/phone.png">
-                                <h1 class="rect-2-header">Compatibility</h1>
-                                <p class="rect-2-message">You don't have to own a
-                                    <p class="rect-2-message">smartphone, Sample works with</p>
-                                    <p class="rect-2-message  line-1">all
-                                        mobile phones.</p>
-                                    <p class="rect-2-message">Android users can find us on
-                                        <p class="rect-2-message">Google Play Store and IOS</p>
-                                        <p class="rect-2-message">users,
-                                            we are near the
-                                            corners!
-                                        </p>
-                            </div>
-                            <div class="rect-2">
-                                <img src="img/lock.png">
-                                <h1 class="rect-2-header">Highly Secure</h1>
-                                <p class="rect-2-message">You don't have to own a
-                                    <p class="rect-2-message">smartphone, Sample works with</p>
-                                    <p class="rect-2-message  line-1">all
-                                        mobile phones.</p>
-                                    <p class="rect-2-message">Android users can find us on
-                                        <p class="rect-2-message">Google Play Store and IOS</p>
-                                        <p class="rect-2-message">users,
-                                            we are near the
-                                            corners!
-                                        </p>
-                            </div>
-                            <div class="rect-2 payment">
-                                <img src="img/laptop.png">
-                                <h1 class="rect-2-header">Payment Solutions</h1>
-                                <p class="rect-2-message line-1">E-Commerce made easy with Sample</p>
-                                <p class="rect-2-message">-- Buy and Sell at your convience.</p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                <label class="block left">Password</label>
+                <input class="block" type="password" name="firstname" placeholder="Password">
+                <input class="block" type="submit" value="SIGN IN">
+            </form>
+            <p class="">Don't have an account? <a class="sign-link" href="../sign-up/sign-up.html">Sign up</a></p>
+            <div class="hr-wrapper">
+                <hr>
             </div>
-
-            <section class="section-3">
-                <div class="section-3-content">
-                    <img src="img/clear-white2.png" class="phone-2">
-                    <div class="board">
-                        <div class="board-nav">
-                            <img src="img/star-ribbon.svg" class="star">
-                            <h1 class="section-3-header">Features</h1>
-                        </div>
-                        <ul class="list">
-                            <li>Available on USSD <strong>*726#</strong></li>
-                            <li>Settle (liquidate): real-time</li>
-                            <li>Secure Access – Encryption</li>
-                            <li>Real-time monitoring and reporting</li>
-                            <li>Support multiple Users</li>
-                            <li>Dashboard with insights and analytics</li>
-                            <li>Integrated with BK and Ecobank</li>
-                        </ul>
-                        <a href="#"><img class="btn-2" src="img/playstore-button2.png"></a>
-                    </div>
-                </div>
-            </section>
+            <a href="#" class="forgot">Forgot password?</a>
         </main>
-
-        <div class="line-wrapper">
-            <hr class="line">
-        </div>
-
-        <footer>
-
-            <p class="footer-text">Copyright © 2019 Oltranz Ltd. All rights reserved</p>
-            <div class="social">
-                <a href="#"><img src="img/FAQs.png"></a>
-                <a href="#"><img src="img/logotypes.png"></a>
-                <a href="#"><img src="img/facebook-icon.png"></a>
-                <a href="#"><img src="img/twitter-icon.png"></a>
-                <a href="#"><img src="img/instagram-icon.png"></a>
-                <a href="#"><img src="img/LinkedIn.png"></a>
-            </div>
-        </footer>
     </div>
-    <script src="js/main.js"></script>
 </body>
 
 </html>
