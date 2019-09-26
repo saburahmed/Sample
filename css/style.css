@@ -5,7 +5,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
@@ -13,6 +13,7 @@
 /* Header Style */
 header {
   height: 577px;
+  height: 87vh;
   width: 100%;
   background: #00aeb5;
   overflow-y: hidden;
@@ -78,23 +79,128 @@ main {
 }
 
 #section1-2 {
-  background: url("../assets/wave.svg");
+  background: url("../img/wave.svg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .section1-2-content {
-  padding-left: 9%;
+  padding: 0 9% 0 9%;
 }
 
 /* Section 1 styles here */
 .section-header {
   color: #00aeb5;
   font-size: 24px;
+  padding-bottom: 2%;
 }
 
 .rect-wrapper {
   display: flex;
   justify-content: space-between;
 }
+
+.section-1 {
+  padding-bottom: 9%;
+}
 /* Section 1 styles ends here */
+
+/* Section 2 styles starts here */
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-2a {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sample-wrapper {
+  display: flex;
+}
+
+.sample-img {
+  padding-top: 10%;
+  padding-right: 5%;
+}
+
+.sample-text {
+  font-size: 18px;
+}
+
+.green {
+  color: #00aeb5;
+  text-decoration: none;
+}
+
+.four-box {
+  padding-top: -2%;
+  padding-left: 29.9%;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 0px;
+}
+
+.box-3 {
+  grid-column-start: 2;
+}
+
+.section-2b {
+  padding-top: 3%;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.rect-2-header {
+  color: #00aeb5;
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+.rect-2-message {
+  font-size: 15px;
+}
+
+.line-1 {
+  padding-bottom: 4%;
+}
+
+.payment {
+  padding-top: 10%;
+}
+
+/* Section 3 styling starts here */
+.section-3 {
+  background: url("../img/cross-wave.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+  padding-top: 10%;
+}
+
+.section-3-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9% 0 9%;
+  /* width: 80vw; */
+}
+
+.phone-2 {
+  margin-top: 10%;
+}
+
+.board {
+  width: 305px;
+  height: 519px;
+  background: #fff;
+  background: red;
+  padding: ;
+}
+
+.board-nav {
+  display: flex;
+}
