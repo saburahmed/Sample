@@ -26,18 +26,22 @@
 
         <main>
             <h2 class="heading">Sign In to Your Account</h2>
-            <form onsubmit="">
+
+            <form id="signInForm" onsubmit="">
                 <label class="block left">Email Address</label>
-                <input class="block" type="text" name="email" placeholder="Email Address" required>
+                <input id="emailField" class="block" type="text" name="email" placeholder="Email Address" required>
 
                 <label class="block left">Password</label>
-                <input class="block" type="password" name="password" placeholder="Password" required>
-                <input class="block" type="submit" value="SIGN IN">
+                <input id="passField" class="block" type="password" name="password" placeholder="Password" required>
+
+                <input id="submit" class="block" type="submit" value="SIGN IN" disabled>
             </form>
             <p class="">Don't have an account? <a class="sign-link" href="../sign-up/sign-up.html">Sign up</a></p>
+
             <div class="hr-wrapper">
                 <hr>
             </div>
+
             <a href="#" class="forgot">Forgot password?</a>
         </main>
     </div>
