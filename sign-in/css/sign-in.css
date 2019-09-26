@@ -75,6 +75,10 @@ input[type="submit"] {
   margin-bottom: 5%;
 }
 
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
 input:focus {
   outline: 0;
 }
@@ -110,10 +114,3 @@ form {
   text-decoration: none;
   color: #d90606;
 }
-
-/* #emailField:valid, #passField:valid {
-  border-color: #00aeb5;
-}
-#emailField:invalid, #passField:invalid {
-  border-color: #d90606;
-} */
