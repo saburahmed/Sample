@@ -37,11 +37,6 @@ header {
   color: #000;
 }
 
-.brand {
-  font-family: "Lato", sans-serif;
-  color: #fff;
-}
-
 #sign-up {
   color: #fff;
   border: 1px solid #fff;
@@ -60,7 +55,7 @@ header {
   color: #fff;
 }
 
-#featured #message h1 {
+.message-header {
   font-size: 40px;
 }
 
@@ -167,7 +162,6 @@ main {
 .line-1 {
   padding-bottom: 4%;
 }
-
 /* Section 2 styling ends */
 
 /* Section 3 styling starts here */
