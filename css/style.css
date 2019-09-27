@@ -12,7 +12,7 @@
 
 /* Header Style */
 header {
-  max-height: 87vh;
+  height: 577px;
   width: 100%;
   background: #00aeb5;
   overflow-y: hidden;
@@ -199,7 +199,7 @@ main {
   display: flex;
 }
 
-.section-3-header {
+.board-header {
   color: #00aeb5;
   font-size: 24px;
   padding: 40px 0 0 40px;
