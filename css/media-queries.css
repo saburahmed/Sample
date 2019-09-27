@@ -60,7 +60,7 @@
   }
 
   .rect-2-header {
-    font-size: 18px;
+    font-size: 15px;
     padding-bottom: 5px;
   }
 
@@ -91,6 +91,95 @@
 }
 
 @media only screen and (max-width: 768px) {
+  /* Header styles starts */
+  /* header {
+    height: 75vh;
+    width: 100vw;
+  }
+  .navbar ul {
+    width: 50%;
+  }
+
+  #featured {
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+
+  #message {
+    padding-top: 9%;
+  }
+
+  .message-header {
+    font-size: 30px;
+  }
+
+  #featured #message .message-body p {
+    font-size: 18px;
+  }
+
+  #featured #message a img {
+    width: 130px;
+  }
+
+  .message-body {
+    padding: 3% 0 3% 0;
+  } */
+  /* Header styles ends */
+
+  /* .section1-2-content {
+    padding: 0 5% 0 5%;
+  } */
+
+  /* Section 1 styles here */
+  /* .section-header {
+    font-size: 20px;
+    padding-bottom: 3%;
+  } */
+  /* Section 1 styles ends here */
+
+  /* Section 2 styles starts here */
+  /* .section-2 {
+    display: flex;
+  }
+
+  .sample-img {
+    padding-top: 10%;
+    padding-right: 3%;
+  }
+
+  .sample-img,
+  .box {
+    width: 180px;
+  }
+
+  .rect-2-header {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+
+  .sample-text {
+    font-size: 15px;
+  }
+
+  .four-box {
+    padding-top: -3%;
+    padding-left: 29%;
+  }
+
+  .rect-2-message {
+    font-size: 11px;
+  } */
+  /* Section 2 styling ends */
+
+  /* Section 3 styling starts here */
+  /* .section-3-content {
+    padding: 0 5% 0 5%;
+  }
+
+  .phone-2 {
+    margin-left: 3%;
+  } */
+  /* Section 3 styling starts here */
 }
 
 @media only screen and (max-width: 425px) {
