@@ -1,8 +1,5 @@
 @media only screen and (max-width: 1024px) {
   /* Header styles starts */
-  header {
-    height: 577px;
-  }
   .navbar ul {
     width: 50%;
   }
@@ -114,7 +111,7 @@
 
   /* Header styles starts */
   header {
-    max-height: 390px;
+    height: 310px;
   }
 
   .topnav {
@@ -272,7 +269,7 @@
 @media only screen and (max-width: 425px) {
   /* Header styles starts here */
   header {
-    min-height: 100vh;
+    height: 100vh;
   }
 
   #featured {
