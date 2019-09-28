@@ -464,43 +464,44 @@
     font-size: 20px;
   }
 
-.message-body {
-  font-size: 12px;
-}
+  .message-body {
+    font-size: 12px;
+  }
 
-#featured #message a img {
-  width: 100px;
-}
+  #featured #message a img {
+    width: 100px;
+  }
 
-.rect-img {
-  width: 50px;
-}
+  .rect-img {
+    width: 50px;
+  }
 
-.rect-heading {
-  font-size: 18px;
-}
+  .rect-heading {
+    font-size: 18px;
+  }
 
-.rect-text {
-  font-size: 15px;
-}
+  .rect-text {
+    font-size: 15px;
+  }
 
-.sample-heading {
-  font-size: 18px;
-}
+  .sample-heading {
+    font-size: 18px;
+  }
 
-.green {
-  font-size: 12px;
-}
+  .green {
+    font-size: 12px;
+  }
 
-.sample-img, .box {
-  width: 85px;
-}
+  .sample-img,
+  .box {
+    width: 85px;
+  }
 
-.rect-2-header {
-  font-size: 18px;
-}
+  .rect-2-header {
+    font-size: 18px;
+  }
 
-.rect-2-message {
-  font-size: 15px;
-}
+  .rect-2-message {
+    font-size: 15px;
+  }
 }

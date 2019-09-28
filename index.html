@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="css/media-queries.css">
 
     <style>
-        
+
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="topnav" id="myTopnav" data-options="scrolltop: false">
+        <!-- Mobile viewport navbar -->
+        <div class="topnav" id="myTopnav">
             <a href="index.html"><img class="brand" src="img/Sample.png"></a>
             <a href="#">How it works</a>
             <a href="#">Developer</a>
@@ -30,9 +31,11 @@
                 <i class="fa fa-bars"></i>
             </a>
         </div>
+        <!-- Mobile viewport navbar -->
 
         <header>
-            <nav class="navbar" id="myTopnav">
+            <!-- Desktop viewport navbar -->
+            <nav class="navbar">
                 <a href="index.html"><img class="brand" src="img/Sample.png"></a>
                 <ul>
                     <li><a href="#">How it works</a></li>
@@ -41,6 +44,7 @@
                     <li><a href="sign-up/sign-up.html" id="sign-up">Sign Up</a></li>
                 </ul>
             </nav>
+            <!-- Desktop viewport navbar -->
 
             <div id="featured">
                 <img id="phone1" src="img/clear-white1.png">
@@ -214,6 +218,7 @@
             </div>
         </footer>
     </div>
+    <!-- JavaScript codes for mobile viewport -->
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -224,6 +229,7 @@
             }
         }
     </script>
+    <!-- JavaScript codes for mobile viewport -->
     <script src="js/main.js"></script>
 </body>
 

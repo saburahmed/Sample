@@ -15,15 +15,30 @@
 
 <body>
     <div class="container">
+        <!-- Mobile viewport navbar -->
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html"><img class="brand" src="img/OPay.png"></a>
+            <a href="#">How it works</a>
+            <a href="#">Developer</a>
+            <a href="../sign-in/sign-in.html">Sign In</a>
+            <a href="sign-up.html">Sign Up</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!-- Mobile viewport navbar -->
+
+        <!-- Desktop viewport navbar -->
         <nav class="navbar">
             <a href="../index.html"><img class="brand" src="img/OPay.png"></a>
             <ul>
                 <li><a href="#">How it works</a></li>
                 <li><a href="#">Developer</a></li>
                 <li><a href="../sign-in/sign-in.html">Sign In</a></li>
-                <li><a href="../sign-up/sign-up.html" id="sign-up">Sign Up</a></li>
+                <li><a href="sign-up.html" id="sign-up">Sign Up</a></li>
             </ul>
         </nav>
+        <!-- Desktop viewport navbar -->
 
         <main>
             <h2 class="heading">Sign Up to Continue</h2>
@@ -47,6 +62,19 @@
             <a href="#" class="forgot">Forgot password?</a>
         </main>
     </div>
+    <!-- JavaScript codes for mobile viewport -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <!-- JavaScript codes for mobile viewport -->
+
     <script src="js/sign-up.js"></script>
 </body>
 

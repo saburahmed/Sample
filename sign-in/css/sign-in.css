@@ -9,6 +9,33 @@
   font-family: "Nunito", sans-serif;
 }
 
+/* Mobile navbar style starts here */
+.topnav {
+  overflow: hidden;
+  background: #fff;
+}
+
+.topnav {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #00aeb5;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .icon {
+  display: none;
+  font-size: 20px;
+  padding: 20px;
+}
+/* Mobile navbar style ends here */
+
 .container {
   min-height: 100vh;
   width: 100vw;
