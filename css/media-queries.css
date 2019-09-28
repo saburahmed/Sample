@@ -270,7 +270,6 @@
   /* Header styles starts here */
   header {
     height: 100vh;
-    overflow-y: visible;
   }
 
   #featured {
@@ -278,12 +277,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0%;
+    padding: 7% 1% 0% 1%;
   }
 
   #featured img {
-    width: 400px;
-    display: inline-block;
+    width: 200px;
   }
 
   #message {
@@ -291,11 +289,11 @@
   }
 
   .message-header {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .message-body {
-    font-size: 30px;
+    font-size: 16.6px;
   }
 
   #featured #message a img {
