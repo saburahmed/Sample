@@ -1,5 +1,3 @@
-# Still under development
-
 Created for Almond Careers.
 
 # Figma link for this project
