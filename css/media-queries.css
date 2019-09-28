@@ -20,8 +20,8 @@
     font-size: 30px;
   }
 
-  #featured #message .message-body p {
-    font-size: 18px;
+  .message-body {
+    font-size: 19px;
   }
 
   #featured #message a img {
@@ -90,6 +90,15 @@
   header {
     max-height: 390px;
   }
+
+  .topnav {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+
   .navbar ul {
     width: 50%;
   }
@@ -115,8 +124,8 @@
     font-size: 25px;
   }
 
-  #featured #message .message-body p {
-    font-size: 15px;
+  .message-body {
+    font-size: 16px;
   }
 
   #featured #message a img {
@@ -211,7 +220,7 @@
   .board-nav {
     padding-left: 30px;
   }
-  
+
   .star {
     width: 40px;
   }
@@ -220,14 +229,14 @@
     font-size: 20px;
     padding: 38px 0 0 20px;
   }
-  
+
   .list {
     list-style: none;
     padding-top: 35px;
     font-size: 15px;
     line-height: 20px;
   }
-  
+
   .btn-2 {
     padding: 30px 0 0 30px;
   }
@@ -239,126 +248,131 @@
   header {
     min-height: 90vh;
     overflow-y: visible;
-    padding-bottom: 300px;
   }
 
   #featured {
+    padding-top: 20%;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  #message {
+    text-align: center;
   }
   /* Header styles ends here */
 
   /* Section 1 styles here */
-.section-header {
-  color: #00aeb5;
-  font-size: 24px;
-  padding-bottom: 2%;
-}
+  .section-header {
+    color: #00aeb5;
+    font-size: 24px;
+    padding-bottom: 2%;
+    text-align: center;
+  }
 
-.rect-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .rect-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.rect {
-  width: 100%;
-}
+  .rect {
+    width: 100%;
+  }
 
-.section-1 {
-  padding-bottom: 9%;
-}
-/* Section 1 styles ends here */
+  .section-1 {
+    padding-bottom: 9%;
+  }
+  /* Section 1 styles ends here */
 
-/* Section 2 styles starts here */
-.section-2 {
-  display: flex;
-  flex-wrap: wrap;
-}
+  /* Section 2 styles starts here */
+  .section-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.section-2a {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+  .section-2a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-.sample-wrapper {
-  display: flex;
-}
+  .sample-wrapper {
+    display: flex;
+  }
 
-.sample-img {
-  padding-top: 10%;
-  padding-right: 5%;
-}
+  .sample-img {
+    padding-top: 10%;
+    padding-right: 5%;
+  }
 
-.sample-text {
-  font-size: 18px;
-}
+  .sample-text {
+    font-size: 18px;
+  }
 
-.green {
-  color: #00aeb5;
-  text-decoration: none;
-}
+  .green {
+    color: #00aeb5;
+    text-decoration: none;
+  }
 
-.four-box {
-  padding-top: -2%;
-  padding-left: 29.9%;
-  display: grid;
-  grid-template-columns: repeat(2, 0fr);
-  grid-gap: 0px;
-}
+  .four-box {
+    padding-top: -2%;
+    padding-left: 29.9%;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 0px;
+  }
 
-.section-2b {
-  padding-top: 3%;
-  width: 40%;
-  display: flex;
-  flex-wrap: wrap;
-}
+  .section-2b {
+    padding-top: 3%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.rect-2 {
-  width: 100%;
-}
+  .rect-2 {
+    width: 100%;
+  }
 
-.rect-2-header {
-  color: #00aeb5;
-  font-size: 20px;
-  padding-bottom: 5%;
-}
+  .rect-2-header {
+    color: #00aeb5;
+    font-size: 20px;
+    padding-bottom: 5%;
+  }
 
-.rect-2-message {
-  font-size: 14px;
-}
+  .rect-2-message {
+    font-size: 14px;
+  }
 
-.line-1 {
-  padding-bottom: 4%;
-}
-/* Section 2 styling ends */
+  .line-1 {
+    padding-bottom: 4%;
+  }
+  /* Section 2 styling ends */
 
-/* Section 3 styling starts here */
-.section-3-content {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 9% 0 9%;
-  /* width: 80vw; */
-}
-/* Section 3 styling ends */
+  /* Section 3 styling starts here */
+  .section-3-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 9% 0 9%;
+    /* width: 80vw; */
+  }
+  /* Section 3 styling ends */
 
-/* Footer styling starts here */
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1% 5% 20% 5%;
-}
+  /* Footer styling starts here */
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 5% 20% 5%;
+  }
 
-.footer-text {
-  font-size: 12px;
-  padding-bottom: 7%;
-}
+  .footer-text {
+    font-size: 12px;
+    padding-bottom: 7%;
+  }
 
-footer .social a + a {
-  padding: 0 .5em;
-}
-/* Footer styling ends here */
+  footer .social a + a {
+    padding: 0 0.5em;
+  }
+  /* Footer styling ends here */
 }
 
 @media only screen and (max-width: 375px) {
