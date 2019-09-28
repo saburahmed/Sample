@@ -51,7 +51,7 @@
     width: 180px;
   }
 
-  .rect-2-header {
+  .sample-heading {
     font-size: 15px;
     padding-bottom: 5px;
   }
@@ -202,7 +202,7 @@
     width: 120px;
   }
 
-  .rect-2-header {
+  .sample-heading {
     font-size: 15px;
     padding-bottom: 4px;
   }
@@ -393,12 +393,12 @@
     padding-bottom: 1.5%;
   }
 
-  .rect-2-header {
+  .sample-heading {
     font-size: 24px;
     padding-bottom: 1%;
   }
 
-  .sample-text {
+  .sample {
     font-size: 15px;
   }
 
@@ -432,6 +432,27 @@
 }
 
 @media only screen and (max-width: 375px) {
+  /* Header styles starts here */
+  .message-header {
+    font-size: 25px;
+  }
+
+  .message-body {
+    font-size: 15px;
+  }
+  /* Header styles ends here */
+
+  .rect-heading {
+    font-size: 20px;
+  }
+
+  .sample-heading {
+    font-size: 20px;
+  }
+
+  .sample {
+    padding-left: 5%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
