@@ -1,4 +1,6 @@
-Created for Almond Careers.
+# Created for Almond Careers.
+
+Built with HTML, Pure CSS (no Bootstrap) and JavaScript.
 
 # Figma link for this project
 
