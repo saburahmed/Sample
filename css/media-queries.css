@@ -86,6 +86,32 @@
 }
 
 @media only screen and (max-width: 768px) {
+  /* Responsive navbar styles starts at this viewport */
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
   /* Header styles starts */
   header {
     max-height: 390px;
@@ -246,18 +272,34 @@
 @media only screen and (max-width: 425px) {
   /* Header styles starts here */
   header {
-    min-height: 90vh;
-    overflow-y: visible;
+    min-height: 100vh;
   }
 
   #featured {
-    padding-top: 20%;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  #featured img {
+    width: 400px;
+    display: inline-block;
   }
 
   #message {
-    text-align: center;
+    padding-top: 0%;
+  }
+
+  .message-header {
+    font-size: 40px;
+  }
+
+  .message-body {
+    font-size: 30px;
+  }
+
+  #featured #message a img {
+    width: 150px;
   }
   /* Header styles ends here */
 
@@ -270,98 +312,113 @@
   }
 
   .rect-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .rect {
+    display: block;
+    text-align: center;
     width: 100%;
   }
 
+  .rect {
+    width: 80%;
+    padding-top: 5%;
+    display: inline-block;
+  }
+
+  .rect-img {
+    width: 60px;
+  }
+
+  .rect-heading {
+    font-size: 24px;
+  }
+
+  .pin {
+    width: 220px;
+  }
+
+  .rect-text {
+    font-size: 20px;
+  }
+
   .section-1 {
-    padding-bottom: 9%;
+    padding-bottom: 7%;
   }
   /* Section 1 styles ends here */
 
   /* Section 2 styles starts here */
   .section-2 {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
   }
 
   .section-2a {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    width: 95%;
+    display: block;
+    padding-top: 10%;
+    padding-left: 5%;
   }
 
   .sample-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
   }
 
   .sample-img {
-    padding-top: 10%;
-    padding-right: 5%;
+    padding-top: 70%;
   }
 
-  .sample-text {
-    font-size: 18px;
-  }
-
-  .green {
-    color: #00aeb5;
-    text-decoration: none;
-  }
-
-  .four-box {
-    padding-top: -2%;
-    padding-left: 29.9%;
-    display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    grid-gap: 0px;
+  .sample-img,
+  .box {
+    width: 100px;
   }
 
   .section-2b {
-    padding-top: 3%;
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 15% 0 10% 0;
+    width: 100%;
+    display: block;
+    text-align: center;
   }
 
   .rect-2 {
     width: 100%;
+    display: inline-block;
   }
 
-  .rect-2-header {
-    color: #00aeb5;
-    font-size: 20px;
-    padding-bottom: 5%;
+  .rect-2 + .rect-2 {
+    padding-top: 10%;
   }
 
   .rect-2-message {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .line-1 {
-    padding-bottom: 4%;
+    padding-bottom: 1.5%;
   }
+
+  .rect-2-header {
+    font-size: 24px;
+    padding-bottom: 1%;
+  }
+
+  .sample-text {
+    font-size: 15px;
+  }
+
   /* Section 2 styling ends */
 
   /* Section 3 styling starts here */
   .section-3-content {
-    display: flex;
     flex-wrap: wrap;
-    padding: 0 9% 0 9%;
-    /* width: 80vw; */
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
   }
   /* Section 3 styling ends */
 
   /* Footer styling starts here */
   footer {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     padding: 1% 5% 20% 5%;
+    text-align: center;
   }
 
   .footer-text {
